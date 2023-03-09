@@ -1,0 +1,24 @@
+.header__links {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 46px 48px 0 0;
+}
+
+@media (max-width: 768px) {
+  .header__links {
+    padding: 46px 24px 0 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .header__links {
+    padding: 34px 20px 0 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__links {
+    padding: 30px 16px 0 0;
+  }
+}

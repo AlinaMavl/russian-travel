@@ -1,0 +1,24 @@
+.header__lang-link {
+  margin: 0;
+  list-style: none;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.header__lang-link:first-child {
+  padding-right: 18px;
+}
+
+@media (max-width:560px) {
+  .header__lang-link { 
+    font-size: 20px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width:425px) {
+  .header__lang-link { 
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
