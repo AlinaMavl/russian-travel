@@ -1,9 +1,9 @@
-.place__position_center {
+.place__position {
   margin: 0;
 }
 
 @media (max-width: 425px) {
-  .place__position_center {
+  .place__position {
     padding: 0 16px;
   }
 }
