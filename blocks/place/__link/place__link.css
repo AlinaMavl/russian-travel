@@ -7,5 +7,5 @@
 
 .place__link:hover {
   transition-property: all;
-  opacity: .33;
+  opacity: .8;
 }
