@@ -8,7 +8,7 @@
 
 .footer__link:hover {
   transition-property: all;
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .footer__link:last-child {

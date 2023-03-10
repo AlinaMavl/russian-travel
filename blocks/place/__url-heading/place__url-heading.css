@@ -6,3 +6,7 @@
   letter-spacing: 2px;
   color: #aaa;
 }
+
+.place__url-heading {
+  opacity: .8;
+}

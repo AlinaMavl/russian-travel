@@ -2,24 +2,29 @@
   margin: 0 auto;
   padding: 92px 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 80px;
 }
 
 @media (max-width: 1023px) {
   .places {
     padding: 88px 0 90px;
+    row-gap: 73px;
   }
 }
 
 @media (max-width: 767px) {
   .places {
     padding: 75px 0 80px;
+    row-gap: 50px;
+    /* width: 70%; */
   }
 }
-
 
 @media (max-width: 425px) {
   .places {
     padding: 64px 0 66px;
   }
 }
-

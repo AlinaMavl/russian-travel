@@ -1,21 +1,16 @@
 .footer__links {
   margin: 0;
-  display: inline-block;
-  padding-right: 18px;
-}
-
-.footer__link:last-child {
-  padding-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
   .footer__links {
     display: flex;
     flex-direction: column;
-    padding-bottom: 48px;
-  }
-  .footer__link:last-child {
-    padding-bottom: 0;
+    column-gap: 32px;
+    padding-bottom: 24px;
   }
 }
 

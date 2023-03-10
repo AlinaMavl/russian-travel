@@ -2,4 +2,5 @@
   margin: 0 auto;
   float: right;
   text-indent: 0;
+  box-sizing: border-box;
 }

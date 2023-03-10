@@ -18,9 +18,6 @@
   .lead__subtitle {
     max-width: 310px;
     font-size: 22px;
-    line-height: 1.2;
-    font-weight: 400;
-    text-align: center;
     padding-bottom: 45px;
   }
 }
@@ -31,5 +28,6 @@
     font-size: 16px;
     line-height: 1.25;
     padding-bottom: 40px;
+    letter-spacing: 1;
   }
 }
